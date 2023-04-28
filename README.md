@@ -1,3 +1,3 @@
-## learn-terraform
+# learn-terraform
 
-#1.Variables
+## 1.Variables
