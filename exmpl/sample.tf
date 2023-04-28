@@ -3,6 +3,6 @@ resource "aws_instance" "awswithterra" {
   instance_type = "t3.micro"
 
   tags = {
-    Name = "frontend"
+    Name = "awsterra"
   }
 }
