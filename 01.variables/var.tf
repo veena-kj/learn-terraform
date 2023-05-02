@@ -1,12 +1,5 @@
 variable "sample_string" {
-  default = "hello world"
-}
-
-output sample {
-  value=var.sample_string
-}
-output sample-1 {
-  value= "value of sample string is ${var.sample_string}"
+  default = "hello world- Hi terraform"
 }
 #shell scripting Sample_string = "hello world"
 #to print in shell script we use echo.
