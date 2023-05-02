@@ -27,7 +27,7 @@ output "sample_dict_num1_accessing" {
   value = var.sample_dict["number1"]
 }
 
-output "sample_dict_bool" {
+output "sample_dict_boolean_accessing" {
   value = var.sample_dict["boolean"]
 }
 
