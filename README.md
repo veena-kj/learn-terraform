@@ -12,9 +12,13 @@
 
 ### Terraform variables precedence- priority
 
-1. -var-file > automating the scripts - automatically it takes values from here, and it overrides the data 
+1. -var-file > automating the scripts - automatically it takes values from here, and it overrides the data if already there
+ example: we have declared env in 2 files in demo.auto.tfvars and in prod.tfvars
+it has taken value of env from demo.auto.tfvars, but if we want to modify env as prod.tfvars like below, it takes that and overrides the auto.tfvars value
+terraform apply -var-file=prod.tfvars
+because the first priority is for -var-file
 2. *.auto.tfvars
 3. terraform.tfvars
-4. ask in cli to provide input.
-5. 
+4. asks in cli to provide input.
+ 
 
