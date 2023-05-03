@@ -42,3 +42,12 @@ output "auto_num1" {
 output "sample1" {
   value = var.sample1
 }
+//output "ami_details" {
+//  value = data.aws_ami.centos_ami.image_id
+//}
+//output "frontend" {
+//  value=aws_instance.frontend.public_ip
+//}
+//output "frontendIP" {
+//  value=aws_instance.frontend.private_ip
+//}
