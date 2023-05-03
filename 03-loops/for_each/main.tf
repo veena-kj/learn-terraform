@@ -14,6 +14,7 @@ resource "null_resource" "fruits" {
    }
 }
 
+
 variable "fruits1" {
   default = {
     watermelon ={
