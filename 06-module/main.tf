@@ -1,5 +1,5 @@
 module "sample" {
-  source = ./module
+  source = "./module"
   input = "module.dummy.dummy_op"
 }
 module "dummy" {
